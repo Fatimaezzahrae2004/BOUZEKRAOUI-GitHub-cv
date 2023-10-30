@@ -1,0 +1,117 @@
+/* Styles généraux pour le corps de la page */
+.bd {
+    background-color: rgb(204, 214, 214);
+    font-family: Bahnschrift light, sans-serif;
+    margin: 52px;
+}
+
+/* Style pour les titres en bleu et gras */
+.body { 
+    font-family: Bauhaus 93, sans-serif;
+    color: hsl(210, 6%, 7%);
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+
+}   
+ h2, h3 {
+    font-family:Bahnschrift, sans-serif;
+    color: #201a6e;
+    font-weight: bold;
+    font-style: italic;
+}
+/* Styles CSS pour mettre en bleu le lien et "afric light" */
+.blue-link {
+    color: blue;
+}
+
+.blue-text {
+    color: blue;
+}
+
+/* styles.css */
+.bold-text {
+    font-weight: bold;
+}
+/* styles.css */
+.blue-text {
+    color: blue;
+}
+
+/* Style pour le paragraphe principal du CV */
+p {
+    font-size: 16px;
+    color: #090a0a;
+    background-color: #eff2f5ee;
+    padding: 10px;
+    border: 1px solid #101111;
+    border-radius: 5px;
+}
+.highlight {
+    font-weight: bold;
+    color: rgb(7, 7, 48);
+  }
+  /* styles.css */
+p {
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+
+/* Style pour l'adresse email */
+address {
+    font-size: 16px;
+    color: #1b175a;
+    text-decoration: none;
+}
+
+/* Style pour les listes non ordonnées */
+ul {
+    list-style: none;
+    margin-left : 20px; 
+    margin-bottom: 10px;
+
+}
+
+i {
+    margin-right: 5px;
+}
+
+p i {
+    color: rgb(18, 79, 129);
+}
+
+
+p a {
+    color: #19646e;
+    text-decoration: none; 
+}
+
+
+p a:hover {
+    text-decoration: underline;
+}
+
+
+  
+
+.image-style {
+    width: 160px;
+    height: 150px;
+    border: 5px solid #7a7e83; /* Cadre autour de l'image */
+    border-radius:80%; /* Pour créer une image circulaire, si nécessaire */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Ombre sous l'image */
+    display: block; /* Pour centrer l'image horizontalement */
+    margin: 0 auto;
+    
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    border-top: 1px solid #918d8d;
+    color: #eff2f5;
+    padding: 10px;
+    background-color: #2f2e35;
+}

@@ -1,0 +1,15 @@
+.ul {
+    margin:var(--spacing-3) 0;
+}
+.ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.interests {
+    /* display:none; */
+    
+}
+.interests svg {
+    margin: var(--spacing-1);
+}
